@@ -7,6 +7,12 @@ nav {
   background-color: cadetblue;
 }
 
+
+.optics {
+  color: white;
+  font-family: helvetica, serif;
+}
+
 .container {
   max-width: 960px;
   margin: auto;
@@ -21,6 +27,8 @@ nav {
 .menu {
   display: flex;
   align-items: center;
+  font-family: helvetica, serif;
+  color: white;
 }
 
 ul {
@@ -57,4 +65,37 @@ header {
   font-size: 2rem;
   background-color: white;
   padding: 1.5rem 5rem;
+  line-height: 1.2;
+}
+
+/*MID-SECTION*/
+
+.mid-section {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.mid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid img {
+  width: 5rem;
+  margin-bottom: 1rem;
 }
