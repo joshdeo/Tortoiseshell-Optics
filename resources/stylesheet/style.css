@@ -93,6 +93,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: helvetica, sans-serif;
 }
 
 .mid img {
@@ -110,4 +111,37 @@ header {
   width: 35%;
   margin-right: 5%;
   margin-bottom: 4rem;
+}
+
+.buttons div {
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.buttons p {
+font-family: helvetica, sans-serif;
+}
+
+/*LAST PART*/
+
+.lastbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: helvetica, sans-serif;
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+.lastbox img {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
 }
