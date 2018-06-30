@@ -5,10 +5,6 @@ html {
 
 nav {
   background-color: cadetblue;
-}
-
-
-.optics {
   color: white;
   font-family: helvetica, serif;
 }
@@ -18,7 +14,8 @@ nav {
   margin: auto;
 }
 
-.container img {
+nav img {
+  display: inline;
   height: 1.5rem;
   padding-left: 2rem;
   padding-right: 1rem;
@@ -26,6 +23,7 @@ nav {
 
 .menu {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   font-family: helvetica, serif;
   color: white;
@@ -49,7 +47,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 1r em;
+  padding-top: 1rem;
   height: 30rem;
 }
 
@@ -57,6 +55,7 @@ header {
   display: flex;
   justify-content: flex-end;
   margin-top: 10rem;
+  box-sizing: border-box;
 }
 
 .bannertext {
@@ -110,7 +109,6 @@ header {
   margin-top: 3rem;
   width: 35%;
   margin-right: 5%;
-  margin-bottom: 4rem;
 }
 
 .buttons div {
@@ -140,6 +138,7 @@ font-family: helvetica, sans-serif;
 }
 
 .lastbox img {
+  height: 1.5rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   padding-left: 4rem;
