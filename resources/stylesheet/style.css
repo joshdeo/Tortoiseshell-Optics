@@ -145,3 +145,47 @@ font-family: helvetica, sans-serif;
   padding-left: 4rem;
   padding-right: 1rem;
 }
+@media only screen and (max-width: 1024px) {
+
+.container {
+  text-align: center;
+}
+
+.menu {
+  display: none;
+}
+
+.query {
+  display: block;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannertext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  align-items: center;
+  display: block;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+  .mid {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+  }
+
+
+
+
+}
