@@ -184,7 +184,7 @@ header {
 
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
   .mid-section {
     display: flex;
     justify-content: center;
@@ -194,6 +194,14 @@ header {
     margin: 0rem;
     padding: 0rem;
   }
+
+  .container span {
+    display: none;
+  }
+
+  header {
+  background-position: 20%;
+}
 
   .button {
     display: flex;
@@ -205,14 +213,32 @@ header {
   }
 
   .buttons {
-    margin: 1rem 0rem;
+    width: 100%;
+    margin-top: 0.8rem;
+  }
 
+  .buttons div {
+    width: 100%;
+  }
+
+  .container.button {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mid div {
+    margin: 0rem;
+    padding: 0rem;
   }
 
   .lastbox {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .lastbox span {
+    display: none;
   }
 
 
