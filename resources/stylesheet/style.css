@@ -191,7 +191,7 @@ header {
     flex-direction: column;
     align-items: center;
     height: 40rem;
-    margin: 1rem 0rem;
+    margin: 0rem;
     padding: 0rem;
   }
 
@@ -200,7 +200,13 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50rem;
+    height: 30rem;
+    margin: 1rem 0rem;
+  }
+
+  .buttons {
+    margin: 1rem 0rem;
+
   }
 
   .lastbox {
