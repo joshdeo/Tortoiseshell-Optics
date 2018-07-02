@@ -238,7 +238,13 @@ header {
     display: none;
   }
 
+  .menu {
+    display: none;
+  }
 
+  .query {
+    display: block;
+  }
 
 
 }
